@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #0d0d0d;
+}
+
+.container {
+  display : flex;
+  justify-content: center ;
+  text-align: center;
+}
+
+.home{
+    float:left;
+    margin-right: 50px;
+    color: red;
+}
+
+.away {
+    float: right;
+    color: red;
+}
+.score {
+    font-size: 40px;
+    height: 120px;
+    color: #89ff00;
+    margin-top: -18px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  /* From https://css.glass */
+background: rgba(237, 252, 188, 0.2);
+  border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+border: 1px solid rgba(237, 252, 188, 0.26);
+}
+.score-btns {
+    width: 155px;
+    padding: 12px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #f72222;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+
+}
+.newgame{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
